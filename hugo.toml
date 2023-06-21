@@ -191,7 +191,7 @@ disableHugoGeneratorInject = false
   [[menu.main]]
     identifier = "cv"
     name       = "CV"
-    url        = "cv/CV-paul-collin.pdf"
+    url        = "/cv"
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
