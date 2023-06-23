@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/run/media/paul/DATA/Git/pcollin.fr",
+	"sourceRoot": "/home/paul/Documents/PERSO/pcollin.fr",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",

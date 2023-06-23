@@ -1,7 +1,7 @@
 baseURL = "https://pcollin.fr"
 title   = "Paul Collin"
 languageCode = "fr-fr"
-theme = "hello-friend-ng"
+theme = ["hello-friend-ng", "matomo"]
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -177,6 +177,9 @@ disableHugoGeneratorInject = false
     name = "linkedin"
     url  = "https://www.linkedin.com/in/paul-collin-b8bb57b5"
 
+  [params.matomo]
+    url = "https://matomo.pcollin.fr"
+    id = 1
 
 [languages]
   [languages.en]

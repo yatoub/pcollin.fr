@@ -68,6 +68,8 @@
     {{ template "_internal/google_analytics.html" . }}
 {{- end}}
 
+{{ partial "matomo-tracking" . }}
+
 <!-- Plausible.io -->
 {{- if $.Site.Params.plausibleDataDomain }}
     <script defer data-domain="{{ .Site.Params.plausibleDataDomain }}" src="{{ .Site.Params.plausibleScriptSource }}"></script>
